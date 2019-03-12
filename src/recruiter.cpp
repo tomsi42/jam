@@ -99,10 +99,12 @@ void Recruiter::Print()
     }
     cout << endl;
     if (m_positions.size() > 0) {
-        cout << "Positions: " << endl;
+        cout << "Positions:" << endl;
+        cout << "----------" << endl;
         for (Position * p : m_positions)
         {
             p->Print();
+            cout << endl;
         }
     }
     cout << "--------------------------------------------------------------" << endl << endl;

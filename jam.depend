@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1552405609 source:c:\toms\projects\git\jam\src\dbobject.cpp
+	<iostream>
+	"dbobject.h"
+
+1552405609 c:\toms\projects\git\jam\include\dbobject.h
+
+1552405609 source:c:\toms\projects\git\jam\src\jam_dao.cpp
+	"jam_dao.h"
+	"jam_sql.h"
+	"utils.h"
+
+1552405609 c:\toms\projects\git\jam\include\jam_dao.h
+	<iostream>
+	<vector>
+	"recruiter.h"
+	"position.h"
+	"person.h"
+	"jam_sql.h"
+	"sqlite3.h"
+
+1552405609 c:\toms\projects\git\jam\include\recruiter.h
+	<iostream>
+	<vector>
+	"dbobject.h"
+	"person.h"
+	"position.h"
+
+1552405609 c:\toms\projects\git\jam\include\person.h
+	<iostream>
+	"dbobject.h"
+
+1552405609 c:\toms\projects\git\jam\include\position.h
+	<iostream>
+	<vector>
+	"dbobject.h"
+	"person.h"
+
+1552405609 c:\toms\projects\git\jam\include\jam_sql.h
+	<string>
+	"sqlite3.h"
+
+1552405609 c:\toms\projects\git\jam\include\sqlite3.h
+	<stdarg.h>
+
+1552405609 c:\toms\projects\git\jam\include\utils.h
+	<string>
+	"sqlite3.h"
+
+1552405609 source:c:\toms\projects\git\jam\src\jam_sql.cpp
+	<iostream>
+	"jam_sql.h"
+	"utils.h"
+
+1552405609 source:c:\toms\projects\git\jam\src\person.cpp
+	<iostream>
+	"person.h"
+
+1552405609 source:c:\toms\projects\git\jam\src\position.cpp
+	"position.h"
+
+1552405609 source:c:\toms\projects\git\jam\src\recruiter.cpp
+	"recruiter.h"
+
+1552405609 source:c:\toms\projects\git\jam\src\sqlite3.c
+	"config.h"
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	<ctype.h>
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
+
+1552405609 source:c:\toms\projects\git\jam\src\utils.cpp
+	<iostream>
+	<sys/stat.h>
+	"sqlite3.h"
+
+1552407526 source:c:\toms\projects\git\jam\main.cpp
+	<iostream>
+	"recruiter.h"
+	"person.h"
+	"jam_dao.h"
+
