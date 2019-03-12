@@ -42,7 +42,7 @@
 		<Unit filename="include/recruiter.h" />
 		<Unit filename="include/sqlite3.h" />
 		<Unit filename="include/sqlite3ext.h" />
-		<Unit filename="jobseeker.sql" />
+		<Unit filename="jam.sql" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/dbobject.cpp" />
 		<Unit filename="src/jam_dao.cpp" />
